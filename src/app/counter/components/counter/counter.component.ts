@@ -23,3 +23,14 @@ export class CounterComponent {
     this.counter = 10;
   }
 }
+@Component({
+  selector: 'app-counter2',
+  template: `
+  <p>Reexportado</p>
+  `
+})
+export class CounterComponent2 {
+
+  public counter: number = 10;
+
+}
