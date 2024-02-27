@@ -7,6 +7,7 @@ import { ListComponent } from './components/list/list.component';
 import { AddCharacterFormComponent } from './components/addcharacterForm/addcharacterForm.component';
 import { CounterModule } from '../counter/counter.module';
 import { CounterComponent2 } from '../counter/components/counter/counter.component';
+import { DbzService } from './services/dbz.service';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,6 @@ import { CounterComponent2 } from '../counter/components/counter/counter.compone
     CommonModule,
     FormsModule,
     CounterModule
-  ]
+  ] 
 })
 export class DbzModule { }
